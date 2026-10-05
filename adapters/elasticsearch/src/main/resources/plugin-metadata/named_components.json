@@ -1,0 +1,5 @@
+{
+  "org.elasticsearch.plugin.analysis.AnalyzerFactory": {
+    "bitext_java_english": "com.bitext.lucene.adapter.elasticsearch.BitextJavaEnglishAnalyzerFactory"
+  }
+}

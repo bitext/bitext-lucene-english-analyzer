@@ -1,0 +1,18 @@
+{
+  "add-field-type": {
+    "name": "bitext_java_english",
+    "class": "solr.TextField",
+    "indexAnalyzer": {
+      "class": "com.bitext.lucene.analysis.en.EnglishLemmatizingAnalyzer"
+    },
+    "queryAnalyzer": {
+      "class": "com.bitext.lucene.analysis.en.EnglishLemmatizingAnalyzer"
+    }
+  },
+  "add-field": {
+    "name": "text",
+    "type": "bitext_java_english",
+    "stored": true,
+    "multiValued": true
+  }
+}

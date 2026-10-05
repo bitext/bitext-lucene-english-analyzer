@@ -1,0 +1,11 @@
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "bitext_english": {
+          "type": "bitext_java_english"
+        }
+      }
+    }
+  }
+}
